@@ -1,0 +1,48 @@
+body{
+    /* background-image: url('https://static.wikia.nocookie.net/warhammer40k/images/3/3f/IoMhighres.png/revision/latest?cb=20190630130844'); */
+    background-color: black;
+    background-size: cover;
+    margin: 0;
+    color: greenyellow;
+}
+
+.tableaustyle{
+    display: block;
+    margin: auto;
+}
+/* li{
+    background-color: white;
+} */
+.header{
+    /* position: absolute; */
+    display: block;
+    /* margin: auto; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+.footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: pink;
+}
+#sesame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+}
+/* #sesame > div { 
+    flex-grow: 1;
+    text-align: center;
+} */
+a {
+    color: aqua;
+}
+a:hover {
+    color: rgb(238, 186, 89);
+}
+a:visited {
+    color: rgb(229, 32, 229);
+}
